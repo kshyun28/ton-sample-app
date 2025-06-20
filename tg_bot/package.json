@@ -1,0 +1,19 @@
+{
+  "devDependencies": {
+    "@swc/core": "^1.7.11",
+    "@types/node": "^22.4.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.4"
+  },
+  "scripts": {
+    "start": "ts-node ./src/index.ts"
+  },
+  "dependencies": {
+    "@ton/core": "^0.57.0",
+    "@ton/crypto": "^3.3.0",
+    "@types/qs": "^6.9.15",
+    "dotenv": "^16.4.5",
+    "qs": "^6.13.0",
+    "telegraf": "^4.16.3"
+  }
+}
